@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form 2</title>
+    <style>
+        .a{
+            width:400px;
+            height:350px;
+            background-color: rgba(255,255,255,1);
+            margin:auto;
+            position:relative;
+            top:225px;
+          }
+          .b{
+                  width:330px;
+                  height:30px;
+                  border-radius: 4px;
+                  position:absolute;
+                  left:30px;
+                  border-color: rgba(0,0,0,0.1);
+                  padding:5px;
+               }
+            .c{
+                width:330px;
+                height:30px;
+                background-color:rgba(0,0,255,0.5);
+                color:white;
+                border-radius:5px;
+                border:none;
+                position:absolute;
+                left:30px;
+              }   
+    </style>
+</head>
+<body style="background-color: rgba(0,0,0,0.1);">
+    <div class="a" >
+        <div style="width:500px;height:75px;">
+            <b style="position:absolute;top:25px;left:30px;font-size: 35px;">Please Login</b>
+        </div>
+        <div>
+            <br>
+            <input class="b" type="text" name="email" placeholder="Email Address" ><br><br>
+            <input class="b" type="password" name="password" placeholder="********" ><br><br><br><br>
+            <input  type="checkbox" name="rememberme"  id="rme" style="position:absolute;left:26px;" >
+            <label for="rme" style="position:absolute;left:50px;">Remember me</label><br><br><br>
+            <input class="c" type="submit" value="Login">
+        </div> 
+    </div>
+</body>
+</html>
